@@ -1,0 +1,43 @@
+@charset "UTF-8";
+html{
+    background-image: url("background_tile2.jpg");
+    font-family: Georgia, Times, "Times New Roman";
+}
+header .col1{
+    display: block;
+}
+.titre{
+    text-align: center;
+}
+h1{
+    font-size: 58pt;
+}
+h2{
+    font-size: 38pt;
+    margin-top: -40px;
+}
+h3{
+    font-size: 32pt;
+}
+h4{
+    font-size: 28pt;
+}
+h5{
+   font-size: 18pt; 
+}
+.infojournal{
+    display: flex;
+    justify-content: space-around;
+}
+
+.container, .col2, .sbloc3 , .sbloc4{
+    display: flex;
+}
+
+.p1{
+    border-bottom: 2px solid black;
+}
+.col1, .bloc1, p {
+    padding-right: 10px;
+    padding-left: 10px;
+}
